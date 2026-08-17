@@ -4,7 +4,9 @@ An agent that researches whether an AI toolkit can be built for a given app. It 
 
 This is a small, real version of the research Composio does before building a toolkit for an app — run across 100 apps instead of one.
 
-**Live report:** _(add your Vercel URL here)_
+**Live report:** **[app-research-agent-flax.vercel.app](https://app-research-agent-flax.vercel.app/)**
+
+[![View Live Report](https://img.shields.io/badge/View_Live_Report-→-2F5D50?style=for-the-badge)](https://app-research-agent-flax.vercel.app/)
 
 ---
 
