@@ -1,0 +1,21 @@
+app_name,category,true_auth,true_access,true_buildability,true_mcp_type,source_quality,notes
+Shopify,Ecommerce,token,self-serve,buildable-now,official,good,Free Partner dev store; official @shopify/dev-mcp
+GitHub,Developer Infra and Data Platforms,token,self-serve,buildable-now,official,good,Free PAT; official github-mcp-server
+Klaviyo,Marketing Ads Email and Social,API key,self-serve,buildable-now,official,good,Private key in settings; official mcp.klaviyo.com
+WooCommerce,Ecommerce,API key,self-serve,buildable-now,community,good,Consumer key/secret; open-source free; community MCP only
+Discord,Communications and Messaging,token,self-serve,buildable-now,community,good,Bot token + OAuth2; free portal; community MCP only
+Zendesk,Support and Helpdesk,API token,self-serve,buildable-now,community,good,Trial + free sponsored dev account; partner MCP not first-party
+Snowflake,Developer Infra and Data Platforms,key-pair,self-serve,buildable-now,official,good,Key-pair JWT + OAuth; 30-day trial no card; managed MCP
+Ramp,Finance and Fintech,OAuth2,self-serve,buildable-now,official,good,Admins self-generate creds; first-party MCP
+Google Ads,Marketing Ads Email and Social,OAuth2,gated,needs-outreach,official,good,Dev token needs approval for production; official MCP
+Attio,CRM and Sales,API key,self-serve,buildable-now,official,good,API key + OAuth2; verified from scraped docs
+Pipedrive,CRM and Sales,API token,self-serve,buildable-now,official,good,Free API token every plan; verified from scraped docs
+Notion,Productivity and Project Management,token,self-serve,buildable-now,official,good,Bearer token + OAuth2; verified from scraped docs
+Otter AI,AI Research and Media-native,API key,gated,needs-outreach,official,good,Enterprise-only contact account manager; verified from scraped docs
+PitchBook,Finance and Fintech,API key,gated,needs-outreach,none,good,Standalone contract Direct Data team; verified from scraped docs
+QuickBooks,Finance and Fintech,OAuth2,self-serve,buildable-now,official,weak-source,OAuth2 refresh flow; verified from StackOverflow content
+Stripe,Finance and Fintech,unknown,unknown,unknown,unknown,retrieval-failed,hCaptcha wall - free-tier scrape blocked
+Slack,Communications and Messaging,unknown,unknown,unknown,unknown,retrieval-failed,Marketing homepage scraped not api.slack.com
+Telegram,Communications and Messaging,unknown,unknown,unknown,unknown,retrieval-failed,Empty content - core.telegram.org returned nothing
+iPayX,Finance and Fintech,unknown,unknown,unknown,unknown,retrieval-failed,Wrong company - search returned Adyen docs
+Paygent Connect,Finance and Fintech,unknown,unknown,unknown,unknown,retrieval-failed,Wrong company + blocked - CyberSource ERR_BLOCKED

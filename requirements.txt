@@ -5,3 +5,4 @@ google-genai
 ollama
 pandas
 pydantic
+firecrawl-py

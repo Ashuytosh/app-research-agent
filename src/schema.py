@@ -13,5 +13,6 @@ class AppResearch(BaseModel):
     buildability: str = Field(default="unknown", description="One of: buildable-now, needs-outreach, blocked, unknown")
     main_blocker: str = Field(default="", description="Biggest blocker if not buildable now; empty if none")
     evidence_url: str = Field(default="", description="Docs/article URL supporting the answer")
+    mcp_evidence_url: str = Field(default="", description="URL supporting the has_mcp decision, if any")
     confidence: str = Field(default="low", description="Model self-confidence: high / medium / low")
     researched_by: str = Field(default="", description="Model that produced the row, e.g. qwen2.5:7b")
