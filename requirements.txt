@@ -1,6 +1,7 @@
 requests
 beautifulsoup4
 python-dotenv
-google-generativeai
+google-genai
 ollama
 pandas
+pydantic
